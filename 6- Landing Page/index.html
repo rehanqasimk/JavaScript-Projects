@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Left Navigation -->
+    <nav>
+        <div class="logo">
+            <img src="https://randomuser.me/api/portraits/men/77.jpg" alt="user">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact US</a></li>
+        </ul>
+    </nav>
+    <!-- Header -->
+    <header>
+        <button class="toggle" id="toggle">
+            <i class="fa fa-bars fa-2x"></i>
+        </button>
+        <h1>My Landing Page</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button class="cta-btn" id="open">Sign Up</button>
+    </header>
+
+    <!-- Main content -->
+    <div class="container">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, accusamus suscipit maiores magnam alias laboriosam veritatis, corporis saepe debitis nam vitae earum animi dolores assumenda nisi nemo voluptatibus molestiae mollitia.</p>
+
+        <h2>Lorem, ipsum dolor.</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe eius a nemo provident eos, facere id sapiente quidem officiis aliquam ad voluptas ipsum soluta doloribus! Nobis, at libero autem reiciendis quas amet similique soluta placeat non dolores expedita molestiae sapiente?</p>
+
+        <h2>Lorem, ipsum dolor.</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe eius a nemo provident eos, facere id sapiente quidem officiis aliquam ad voluptas ipsum soluta doloribus! Nobis, at libero autem reiciendis quas amet similique soluta placeat non dolores expedita molestiae sapiente?</p>
+
+        <h2>Projects</h2>
+        <ul>
+            <li>Project 1</li>
+            <li>Project 2</li>
+            <li>Project 3</li>
+            <li>Project 4</li>
+            <li>Project 5</li>
+        </ul>
+    </div>
+
+    <div class="modal-container" id="modal"> 
+        <div class="modal">
+            <button class="modal-btn" id="close">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h2>Sign Up</h2>
+            </div>
+            <form class="modal-form">
+                <p>Register for Classes</p>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter Name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter Email Address">
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password1" placeholder="Enter Password">
+                </div>
+                <div>
+                    <label for="password2">Confirm Password</label>
+                    <input type="password" id="password2" placeholder="Confirm Password">
+                </div>
+                <input type="submit" class="submit-btn" id="submit-btn">              
+            </form>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
